@@ -12,7 +12,6 @@ class Person
 end
 
 class Student < Person
-	attr_accessor :name
 
 	def learn
 		puts "I get it!"
@@ -20,7 +19,6 @@ class Student < Person
 end
 
 class Instructor < Person
-	attr_accessor :name
 	
 	def teach
 		puts "Everything in Ruby is an object"
@@ -35,3 +33,6 @@ student_one.greeting
 
 instructor_one.teach
 student_one.learn
+
+student_one.teach
+# The reason why the line of code above doesn't work is due to the method "teach" not being in the student class
