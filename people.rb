@@ -1,16 +1,4 @@
 #People Exercise
-class Student
-	def learn
-		puts "I get it!"
-	end
-end
-
-class Instructor
-	def teach
-		puts "Everything in Ruby is an object"
-	end
-end
-
 class Person
 	attr_accessor :name
 
@@ -23,7 +11,27 @@ class Person
 	end
 end
 
-instructor_one = Person.new("chris")
+class Student < Person
+	attr_accessor :name
+
+	def learn
+		puts "I get it!"
+	end
+end
+
+class Instructor < Person
+	attr_accessor :name
+	
+	def teach
+		puts "Everything in Ruby is an object"
+	end
+end
+
+instructor_one = Instructor.new("chris")
 instructor_one.greeting
-student_one = Person.new("christina")
+
+student_one = Student.new("christina")
 student_one.greeting
+
+instructor_one.teach
+student_one.learn
