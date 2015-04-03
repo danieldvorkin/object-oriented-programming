@@ -84,7 +84,7 @@ class Rover
 
 	DEADS = [
 		"YOU DEAD BITCH",
-		"YOU SO DEAD BITCH",
+		"YOU SO DEAD",
 		"YOU AS DEAD AS THEY COME",
 		"Bereft of life, you rest peace",
 		"You have rung down the curtain and joined the choir invisible",
