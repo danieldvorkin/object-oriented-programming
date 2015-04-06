@@ -74,14 +74,17 @@ class Rover
 		end
 	end
 
+	# Writeen by Chris "Batman" during Thursday's session!!!!!!
 	def off_the_grid?(x,y)
 		y < 0 or y > HEIGHT or x < 0 or x > WIDTH
 	end
 
+	# Writeen by Chris "Batman" during Thursday's session!!!!!!
 	def rover_at?(x,y)
 		@x == x and @y == y
 	end
 
+	# Writeen by Chris "Batman" during Thursday's session!!!!!!
 	DEADS = [
 		"YOU DEAD BITCH",
 		"YOU SO DEAD",
@@ -93,6 +96,7 @@ class Rover
 		"...so dead."
 	]
 
+	# Writeen by Chris "Batman" during Thursday's session!!!!!!
 	def draw
 		if STDIN.tty?
 			clear_screen
@@ -130,6 +134,7 @@ class Rover
 		end				
 	end
 	
+	# Writeen by Chris "Batman" during Thursday's session!!!!!!
 	def clear_screen
 		print "\e[2J\e[;H"
 	end
