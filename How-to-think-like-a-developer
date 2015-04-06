@@ -1,0 +1,11 @@
+#Monday April 6th, How to think like a developer
+
+- There's many ways to solve a problem with OO.
+- Try to build user stories to help you understand how to program should work in all aspects.
+- The waterfull method for software dev is very costly and potentially harmful to startup companies.
+- Dev's work with the agile dev method, this allows them to go through the same code over and over to make sure everything is working and is able to work for multiple users, without having to worry about budget or the cost for the clients.
+- User stories are built for everyday reading (specifically for clients to use as a checklist)
+	- Keep it short and sweet, use cue cards to hold these ideas and manipulate those cards to defer progress within the project
+	- pivotaltracker.com can help organize the project progress online
+- Good piece of advice: Always build your program 3 times, once for the solving of the problem, 2 so you can implement new stuff easily, and finally 3, make the code pretty and understandable.
+	- Code is a living breathing thing, you always need a good way to implement new features and for testing reasons as well, its good to know how to re-factor things.
